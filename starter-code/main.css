@@ -1,0 +1,174 @@
+/*exercise 1*/
+
+.block-1 {
+    padding: 30px;
+  
+}
+/*exercise 2*/
+
+.centeredblock {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin: auto;
+    padding: 20px;
+}
+.text1 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}    
+/*exercise 3*/
+
+.centeredblock2 {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.centereditems {
+    padding-bottom: 30px;
+    padding-top: 70px;
+}
+
+/*exercise 4*/
+
+.li1 {
+	display: inline;
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+.ul1 {
+    padding-left: 0px;
+}
+
+/*exercise 5*/
+
+.button1 {
+    padding: 20px;
+    display: inline-block;
+    width: 150px;
+    background-color: #ff8080;
+    text-align: center;
+    margin-left: auto;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.button2 {
+    padding: 10px;
+    display: inline-block;
+    width: 95px;
+    background-color: #ff8080;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+.button3 {
+    padding: 0px;
+    display: inline-block;
+    width: 30px;
+    background-color: #ff8080;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: smaller;
+}
+
+.button4 {
+    padding: 10px 30px 10px 30px;
+    background-color: #ff8080;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    font-size: 8px;
+    border: none;
+}
+.navbar {
+    background-color: #ff8080;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.list1 {   
+    padding-left: 65px;
+    display: inline-block;
+}
+
+.LC {
+    text-align: center;
+    font-size: small;
+    text-decoration: none;
+    color: white
+}
+
+a.LC:hover {
+    color:blue;
+}
+
+/*exercise 6 pagination */
+
+.orderlist {
+    padding: 5px;
+}
+
+.orderlist li {
+    list-style: none;
+    float: left;
+    padding: 5px;
+}
+
+.pagination {
+    display: inline-block;
+    margin: 5px 10px;
+    color: #ec828a;
+    text-decoration: none;
+    border: 1px solid #ec828a;
+    border-width: 0 0 3px 0;
+}
+
+.pagination-disabled {
+    display: inline-block;
+    margin: 5px 10px;
+    text-decoration: none;
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-width: 0 0 3px 0;
+}
+
+.unadorned-link {
+    padding: 0px 10px 25px 10px;
+    text-decoration: none;
+    color: #ec828a;
+}
+
+.avatar {
+    float:left;
+    margin-bottom: 10px;
+}
+
+.comment {
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+.comment-container {
+    clear: left;
+}
+
+.comment-time {
+    font-size: small;
+    color: #ccc;
+}
+
+.comment-text {
+    padding-top: 5px;
+}
