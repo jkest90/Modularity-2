@@ -149,7 +149,7 @@ a.LC:hover {
     text-decoration: none;
     color: #ec828a;
 }
-
+/* exercise 7 comment stream */
 .avatar {
     float:left;
     margin-bottom: 10px;
@@ -171,4 +171,57 @@ a.LC:hover {
 
 .comment-text {
     padding-top: 5px;
+}
+
+/* exercise 8 dessert list */
+
+.lemon-list {
+     padding-left: 10px; 
+}
+
+.lemon1-link { 
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  border: 1px solid blue;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: -1px;
+}
+/*.lemon1-link {
+    float:left;
+    padding: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    list-style: none;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-bottom: -3px;
+}*/
+
+.lemon-contents {
+    padding: 15px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-bottom: 10px ;
+}
+
+.lemon1-link2 { 
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  border: 1px solid blue;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: -1px;
+  border-bottom: 1px solid white;
+}
+
+.lemon-list li a {
+    text-decoration: none;
+    color: teal;
 }
